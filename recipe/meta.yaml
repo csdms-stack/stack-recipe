@@ -1,0 +1,24 @@
+{% set name = "stack" %}
+{% set version = "0.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+requirements:
+  run:
+    - pymt
+    - csdms-child
+    - csdms-sedflux-3d
+    - ipython
+    - jupyter
+    - matplotlib
+
+build:
+  number: 0
+
+about:
+  home: https://csdms-stack.github.io
+  summary: |
+    The CSDMS software stack.
+  license: MIT
