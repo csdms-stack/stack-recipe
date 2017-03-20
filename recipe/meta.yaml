@@ -1,4 +1,4 @@
-{% set name = "stack" %}
+{% set name = "csdms-stack" %}
 {% set version = "0.1" %}
 
 package:
